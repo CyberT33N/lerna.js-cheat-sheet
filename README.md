@@ -26,6 +26,8 @@ lerna.js Cheat Sheet with the most needed stuff..
 ```bash
 # npm install --global lerna
 npm i -D lerna
+
+# npx lerna init
 ```
 
 
@@ -38,7 +40,7 @@ npm i -D lerna
 
 ## init
 ```bash
-lerna init
+npx lerna init
 ```
   - Will generate the lerna.json file and package.json
   - Make sure that package.json and lerna.json has version property
